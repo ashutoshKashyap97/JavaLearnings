@@ -23,17 +23,38 @@ public class Main {
         //boolean isCustomer = false;
 
         // String is not a primitive data type. It is a class and have properties and functions
-        String myString = "Ashu";
-        System.out.println(myString);
-        String numberString = "250.20";
-        String secondNumber = "22.80";
-        System.out.println(numberString+secondNumber);
-
-        int thirdNumber = 10;
-        System.out.println(secondNumber+thirdNumber);
+        //String myString = "Ashu";
+        //System.out.println(myString);
+//        String numberString = "250.20";
+//        String secondNumber = "22.80";
+//        System.out.println(numberString+secondNumber);
+//
+//        int thirdNumber = 10;
+//        System.out.println(secondNumber+thirdNumber);
 
         //String in java is immutable we cannot change the string
         //StringBuffer is used instead
+
+        //OPERATORS
+        //Operands : describe any object that is manipulated by an operator
+
+        int result = 1+2; //3
+        System.out.println(result);
+        result = 5*10;
+        System.out.println(result);
+        result = 10/2;
+        System.out.println(result);
+        result = 15%3;
+        System.out.println(result);
+
+        //Shortcuts using operators
+        //result = result +1;
+        result++;
+        System.out.println(result);
+        // result = result + 2;
+        result+=2;
+        System.out.println(result);
+        //result*= 10; result /= 10;
 
     }
 }
