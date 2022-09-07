@@ -14,5 +14,12 @@ public class Main {
         // note: when precise calculations are performed we use BigDecimal
 
         char myChar = 'A';
+        //65535 charactes in unicode
+        char UnicodeChar = '\u0088';
+        System.out.println(UnicodeChar);
+
+        boolean myTrue = true;
+        // use 'is' to name the variable
+        boolean isCustomer = false;
     }
 }
